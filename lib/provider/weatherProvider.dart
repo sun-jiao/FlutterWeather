@@ -9,8 +9,17 @@ import 'package:latlong2/latlong.dart';
 import '../models/dailyWeather.dart';
 import '../models/weather.dart';
 
+part 'apiKeyProvider.dart';
+
+/* content of `apiKeyProvider.dart`:
+
+part of 'weatherProvider.dart';
+
+final apiKey = '7e681a5b4cc221a0fde80620427c5432';
+
+*/
+
 class WeatherProvider with ChangeNotifier {
-  String apiKey = 'Paste Your API Key Here';
   LatLng? currentLocation;
   Weather? weather;
   DailyWeather currentWeather = DailyWeather();
