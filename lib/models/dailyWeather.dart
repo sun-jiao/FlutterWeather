@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 class DailyWeather with ChangeNotifier {
   final dynamic dailyTemp;

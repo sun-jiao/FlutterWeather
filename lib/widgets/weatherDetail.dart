@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_weather/provider/weatherProvider.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:provider/provider.dart';
+
+import '../provider/weatherProvider.dart';
 
 class WeatherDetail extends StatelessWidget {
   Widget _gridWeatherBuilder(String header, String body, IconData icon) {

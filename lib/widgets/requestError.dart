@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_weather/provider/weatherProvider.dart';
 import 'package:provider/provider.dart';
+
+import '../provider/weatherProvider.dart';
 
 class RequestError extends StatelessWidget {
   @override

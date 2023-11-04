@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_weather/models/dailyWeather.dart';
-import 'package:flutter_weather/provider/weatherProvider.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 
 import '../helper/utils.dart';
+import '../models/dailyWeather.dart';
+import '../provider/weatherProvider.dart';
 
 class SevenDayForecast extends StatelessWidget {
   Widget dailyWidget(DailyWeather weather) {

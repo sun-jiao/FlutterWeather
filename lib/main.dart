@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'screens/hourlyWeatherScreen.dart';
+import './screens/hourlyWeatherScreen.dart';
 import './provider/weatherProvider.dart';
-import 'screens/weeklyWeatherScreen.dart';
-import 'screens/homeScreen.dart';
+import './screens/weeklyWeatherScreen.dart';
+import './screens/homeScreen.dart';
 
 void main() {
   runApp(
