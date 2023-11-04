@@ -24,8 +24,7 @@ class _SearchBarState extends State<SearchBar> {
       return Container(
         margin: const EdgeInsets.symmetric(vertical: 24.0, horizontal: 16.0),
         child: Material(
-          elevation: 2,
-          borderRadius: BorderRadius.circular(16.0),
+          borderRadius: BorderRadius.circular(100),
           color: Colors.white,
           child: TextField(
             enabled: !weatherProv.isLoading,
@@ -43,7 +42,7 @@ class _SearchBarState extends State<SearchBar> {
                           _textController.clear();
                         });
                       },
-                      child: Icon(Icons.close, color: Colors.blue),
+                      child: Icon(Icons.close),
                     ),
               hintStyle: TextStyle(color: Colors.grey),
               errorText: _validate ? null : null,
@@ -52,10 +51,7 @@ class _SearchBarState extends State<SearchBar> {
               enabledBorder: InputBorder.none,
               icon: Padding(
                 padding: const EdgeInsets.only(left: 10),
-                child: Icon(
-                  Icons.search,
-                  color: Colors.blue,
-                ),
+                child: Icon(Icons.search),
               ),
               contentPadding: EdgeInsets.only(
                 top: _textController.text.isEmpty ? 12.0 : 14.0,

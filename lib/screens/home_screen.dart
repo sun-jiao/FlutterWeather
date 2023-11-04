@@ -3,14 +3,14 @@ import 'package:provider/provider.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 import '../provider/weather_provider.dart';
-import '../widgets/WeatherInfo.dart';
+import '../widgets/weather_info.dart';
 import '../widgets/fade_in.dart';
 import '../widgets/hourly_forecast.dart';
 import '../widgets/location_error.dart';
 import '../widgets/main_weather.dart';
 import '../widgets/request_error.dart';
 import '../widgets/search_bar.dart';
-import '../widgets/weatherDetail.dart';
+import '../widgets/weather_detail.dart';
 import '../widgets/weekly_forecast.dart';
 
 class HomeScreen extends StatefulWidget {

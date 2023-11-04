@@ -13,14 +13,14 @@ class RequestError extends StatelessWidget {
         children: [
           Icon(
             Icons.wrong_location_outlined,
-            color: Colors.blue,
+            color: Theme.of(context).primaryColor,
             size: 100,
           ),
           SizedBox(height: 10),
           Text(
             'No Search Result',
             style: TextStyle(
-              color: Colors.blue,
+              color: Theme.of(context).primaryColor,
               fontSize: 30,
               fontWeight: FontWeight.w700,
             ),

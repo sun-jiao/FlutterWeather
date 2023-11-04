@@ -126,6 +126,6 @@ class MapString {
       default:
         icon = MdiIcons.weatherCloudy;
     }
-    return Icon(icon, size: iconSize, color: Colors.blue);
+    return Icon(icon, size: iconSize);
   }
 }

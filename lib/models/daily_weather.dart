@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class DailyWeather with ChangeNotifier {
-  final dynamic dailyTemp;
+  final double? dailyTemp;
   final String? condition;
   final DateTime? date;
   final String? precip;

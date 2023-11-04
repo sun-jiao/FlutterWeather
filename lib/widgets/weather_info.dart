@@ -15,11 +15,7 @@ class WeatherInfo extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
-        Icon(
-          icon,
-          color: Colors.blue,
-          size: iconSize ?? 40,
-        ),
+        Icon(icon, size: iconSize ?? 40),
         const SizedBox(width: 16.0),
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,

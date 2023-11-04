@@ -53,12 +53,7 @@ class HourlyScreen extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          centerTitle: true,
-          backgroundColor: Colors.transparent,
-          title: Text(
-            'Next 24 Hours',
-            style: TextStyle(color: Colors.black),
-          ),
+          title: Text('Next 24 Hours'),
         ),
         body: Container(
           height: mediaQuery.size.height,
