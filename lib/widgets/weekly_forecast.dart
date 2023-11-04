@@ -3,10 +3,10 @@ import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 
 import '../helper/utils.dart';
-import '../models/dailyWeather.dart';
-import '../provider/weatherProvider.dart';
+import '../models/daily_weather.dart';
+import '../provider/weather_provider.dart';
 
-class SevenDayForecast extends StatelessWidget {
+class WeeklyForecast extends StatelessWidget {
   Widget dailyWidget(DailyWeather weather) {
     final dayOfWeek = DateFormat('EEE').format(weather.date!);
     return Container(

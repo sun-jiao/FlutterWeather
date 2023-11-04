@@ -2,16 +2,16 @@ import 'package:flutter/material.dart' hide SearchBar;
 import 'package:provider/provider.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
-import '../provider/weatherProvider.dart';
+import '../provider/weather_provider.dart';
 import '../widgets/WeatherInfo.dart';
-import '../widgets/fadeIn.dart';
-import '../widgets/hourlyForecast.dart';
-import '../widgets/locationError.dart';
-import '../widgets/mainWeather.dart';
-import '../widgets/requestError.dart';
-import '../widgets/searchBar.dart';
+import '../widgets/fade_in.dart';
+import '../widgets/hourly_forecast.dart';
+import '../widgets/location_error.dart';
+import '../widgets/main_weather.dart';
+import '../widgets/request_error.dart';
+import '../widgets/search_bar.dart';
 import '../widgets/weatherDetail.dart';
-import '../widgets/sevenDayForecast.dart';
+import '../widgets/weekly_forecast.dart';
 
 class HomeScreen extends StatefulWidget {
   static const routeName = '/homeScreen';
@@ -118,7 +118,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 FadeIn(
                                   curve: Curves.easeIn,
                                   duration: Duration(milliseconds: 250),
-                                  child: SevenDayForecast(),
+                                  child: WeeklyForecast(),
                                 ),
                                 const SizedBox(height: 16.0),
                                 FadeIn(

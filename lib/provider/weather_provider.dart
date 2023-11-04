@@ -6,14 +6,14 @@ import 'package:geolocator/geolocator.dart';
 import 'package:http/http.dart' as http;
 import 'package:latlong2/latlong.dart';
 
-import '../models/dailyWeather.dart';
+import '../models/daily_weather.dart';
 import '../models/weather.dart';
 
-part 'apiKeyProvider.dart';
+part 'api_key_provider.dart';
 
-/* content of `apiKeyProvider.dart`:
+/* content of `api_key_provider.dart`:
 
-part of 'weatherProvider.dart';
+part of 'weather_provider.dart';
 
 final apiKey = '7e681a5b4cc221a0fde80620427c5432';
 

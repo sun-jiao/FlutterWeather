@@ -3,7 +3,7 @@ import 'package:material_design_icons_flutter/material_design_icons_flutter.dart
 import 'package:provider/provider.dart';
 
 import '../helper/utils.dart';
-import '../provider/weatherProvider.dart';
+import '../provider/weather_provider.dart';
 
 class WeatherInfo extends StatelessWidget {
   Widget _weatherInfoBuilder({

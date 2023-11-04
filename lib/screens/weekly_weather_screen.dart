@@ -3,7 +3,7 @@ import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 
 import '../helper/utils.dart';
-import '../provider/weatherProvider.dart';
+import '../provider/weather_provider.dart';
 
 class WeeklyScreen extends StatelessWidget {
   static const routeName = '/weeklyScreen';
