@@ -6,9 +6,7 @@ import '../provider/weather_provider.dart';
 
 class WeatherDetail extends StatelessWidget {
   Widget _gridWeatherBuilder(String header, String body, IconData icon) {
-    return Material(
-      elevation: 5,
-      borderRadius: BorderRadius.circular(15),
+    return Card(
       color: Colors.white,
       child: Padding(
         padding: const EdgeInsets.all(15.0),

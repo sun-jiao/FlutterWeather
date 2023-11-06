@@ -49,9 +49,7 @@ class WeeklyForecast extends StatelessWidget {
         ),
         Container(
           margin: const EdgeInsets.all(16.0),
-          child: Material(
-            elevation: 5,
-            borderRadius: BorderRadius.circular(15),
+          child: Card(
             color: Colors.white,
             child:
                 Consumer<WeatherProvider>(builder: (context, weatherProv, _) {

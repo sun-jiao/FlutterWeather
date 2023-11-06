@@ -14,9 +14,7 @@ class HourlyForecast extends StatelessWidget {
     return Container(
       height: 175,
       padding: const EdgeInsets.all(5.0),
-      child: Material(
-        elevation: 5,
-        borderRadius: BorderRadius.circular(15),
+      child: Card(
         color: Colors.white,
         child: Row(
           children: [

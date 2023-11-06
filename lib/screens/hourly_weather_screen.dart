@@ -13,10 +13,8 @@ class HourlyScreen extends StatelessWidget {
     final hours = DateFormat.Hm().format(time);
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 5.0),
-      child: Material(
-        elevation: 5,
+      child: Card(
         color: Colors.white,
-        borderRadius: BorderRadius.circular(15.0),
         child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Row(

@@ -44,9 +44,7 @@ class WeatherInfo extends StatelessWidget {
     return Consumer<WeatherProvider>(builder: (context, weatherProv, _) {
       return Container(
         padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20.0),
-        child: Material(
-          elevation: 5,
-          borderRadius: BorderRadius.circular(15),
+        child: Card(
           color: Colors.white,
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,

@@ -56,7 +56,16 @@ class MyApp extends StatelessWidget {
             iconTheme: IconThemeData(
               color: Colors.white,
             ),
-            systemOverlayStyle: SystemUiOverlayStyle.light,
+            systemOverlayStyle: SystemUiOverlayStyle(
+              systemNavigationBarColor: Colors.transparent,
+              systemNavigationBarDividerColor: Colors.transparent,
+              systemNavigationBarIconBrightness: Brightness.dark,
+              systemNavigationBarContrastEnforced: false,
+              statusBarColor: Colors.transparent,
+              statusBarBrightness: Brightness.light,
+              statusBarIconBrightness: Brightness.dark,
+              systemStatusBarContrastEnforced: false,
+            ),
           ),
           useMaterial3: true,
           splashFactory: InkRipple.splashFactory,
